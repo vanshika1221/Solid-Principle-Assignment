@@ -4,6 +4,8 @@ class Rectangle
 {
     int m_width;
     int m_height;
+    
+    //Rectangle class constructor
     public Rectangle(int width, int height)
     {
         m_width = width;
@@ -33,6 +35,7 @@ class Rectangle
 //Square class extends the Rectangle class to find the area of square
 class Square extends Rectangle
 {
+    //Square class constructor
     public Square(int side)
     {
         super(side, side);
