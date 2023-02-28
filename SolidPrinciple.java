@@ -11,14 +11,7 @@ class Rectangle
         m_width = width;
         m_height = height;
     }
-    public void setWidth(int width)
-    {
-        m_width = width;
-    }
-    public void setHeight(int height)
-    {
-        m_height = height;
-    }
+    
     public int getWidth()
     {
         return m_width;
